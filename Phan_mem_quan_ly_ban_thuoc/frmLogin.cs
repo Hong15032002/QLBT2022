@@ -67,7 +67,7 @@ namespace Phan_mem_quan_ly_ban_thuoc
             {
                 if (i < 4)
                 {
-                    SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-GITFMCB6\SQLEXPRESS;Initial Catalog=THUOC;Integrated Security=True");
+                    SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-BA1C3EL\SQLEXPRESS;Initial Catalog=THUOC;Integrated Security=True");
                     try
                     {
                         conn.Open();
@@ -96,7 +96,7 @@ namespace Phan_mem_quan_ly_ban_thuoc
                 }
                 else
                 {
-                    MessageBox.Show("Bạn đăng nhập quá 3 lần !!! Bye bye ","Cảnh báo",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                    MessageBox.Show("Bạn đăng nhập quá 3 lần !!!","Cảnh báo",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                     Application.Exit();
                 }
                 
@@ -123,6 +123,16 @@ namespace Phan_mem_quan_ly_ban_thuoc
         private void btnAdd_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUser_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

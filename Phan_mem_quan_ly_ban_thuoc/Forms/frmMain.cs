@@ -186,11 +186,11 @@ namespace Phan_mem_quan_ly_ban_thuoc.Forms
             string hello = lblNguoidung.Text;
             Forms_SP_Reports.frm_SP_Thuoc_Hethan f = new Forms_SP_Reports.frm_SP_Thuoc_Hethan(hello);
             f.ShowDialog();
-        }
+        }          
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-
+        
         }
 
         private void label1_Click(object sender, EventArgs e)
